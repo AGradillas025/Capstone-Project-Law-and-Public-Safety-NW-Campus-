@@ -23,6 +23,18 @@ header {
 
 /* Header Styles */
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer,
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 div#header {
     width: 100%;
     display: block;
@@ -43,7 +55,7 @@ ul {
 
 li {
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
