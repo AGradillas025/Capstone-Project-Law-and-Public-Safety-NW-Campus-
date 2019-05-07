@@ -7,27 +7,25 @@
 
 /* Window Styles */
 
+/* The height of both the html & body will be set to 100% height of the browser window */
 html {
     height: 100%;
 }
 
 body {
     height: 100%;
-    margin: 0 auto;
-    display: block;
+    margin: 0;
 }
-
-
 
 /* Header Styles */
 
+/* The following elements will be formatted into the font that it was given  */
 li,
 h1,
 h2,
 h3,
 h4 {
     font-family: 'Roboto', sans-serif;
-    display: block
 }
 
 footer,
@@ -35,15 +33,17 @@ p {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
+/* The div with the id of header is set to take up 100% of the browser width */
 div#header {
     width: 100%;
-    display: block;
 }
 
 div#header::after {
     display: table;
     content: "";
 }
+
 
 ul {
     list-style-type: none;
