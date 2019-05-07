@@ -17,20 +17,32 @@ body {
     display: block;
 }
 
-header {
-    width: 100%;
-}
+
 
 /* Header Styles */
+
+li,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    display: block
+}
+
+footer,
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 div#header {
     width: 100%;
     display: block;
 }
 
-nav img {
-    width: 50%;
-    display: block;
+div#header::after {
+    display: table;
+    content: "";
 }
 
 ul {
@@ -38,12 +50,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(229, 137, 25);
 }
 
 li {
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
@@ -56,23 +68,30 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(196, 95, 0);
 }
 
 /* Body Styles */
 
 div#bodyCont {
-    overflow: hidden;
+    overflow: auto;
+    height: 100%
 }
 
 div#general {
-    width: 75%;
+    overflow: hidden;
+    width: 80%;
     float: left;
+    background-color: whitesmoke;
+    height: 100%;
 }
 
 div#sideCont {
-    width: 25%;
-    float: left;
+    width: 20%;
+    float: right;
+    background-color: #333;
+    height: 100%;
+    color: white;
 }
 
 /* Footer Styles */

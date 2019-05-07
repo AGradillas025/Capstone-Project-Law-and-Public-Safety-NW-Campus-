@@ -1,10 +1,121 @@
+@charset "utf-8";
+
 /* 
     Authors: Anthony Gradillas & Emmanuel Cortes Castaneda
     File: about.html
 */
 
-/* Body Styls */
+/* General Content Styles */
 
-div#sideCont {
-    width: 25%;
+article {
+    display: block
+}
+
+h1#heading {
+    margin: 0;
+    padding: 15px;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding: 15px;
+    margin: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Side Content Styles */
+
+div#sideCont h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div#sideCont img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Map Styles */
+
+#map {
+    width: 50%;
+}
+
+/*
+ Social Media Icons
+ */
+
+div#socialMedia {
+    width: 100%;
+    margin: 0 auto
+}
+
+#snap {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: block;
+
+    color: white;
+    background-color: #fffc00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: block;
+
+    color: white;
+    background-color: #55ACEE;
+}
+
+#insta {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: block;
+
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.icons:hover {
+    opacity: .7;
 }
