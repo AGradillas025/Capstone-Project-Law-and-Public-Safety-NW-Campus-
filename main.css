@@ -12,7 +12,8 @@ html {
     height: 100%;
 }
 
-body {
+body,
+html {
     height: 100%;
     margin: 0;
 }
@@ -74,12 +75,10 @@ li a:hover {
 /* Body Styles */
 
 div#bodyCont {
-    overflow: auto;
     height: 100%
 }
 
 div#general {
-    overflow: hidden;
     width: 80%;
     float: left;
     background-color: whitesmoke;
@@ -97,8 +96,11 @@ div#sideCont {
 /* Footer Styles */
 
 footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     display: block;
     background: #333;
     color: white;
+    text-align: center;
 }

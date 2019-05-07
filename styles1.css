@@ -26,7 +26,7 @@ p {
     font-size: 1.17em
 }
 
-p.information {
+.information {
     width: 90%;
     margin: 0 auto;
 }
@@ -55,11 +55,6 @@ p.information {
 div#sideCont h1 {
     font-size: 1.5em;
     text-align: center;
-}
-
-div#sideCont img {
-    display: block;
-    margin: 0 auto;
 }
 
 
@@ -120,4 +115,88 @@ div#socialMedia {
     color: white;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+
+
+/* Image Slider */
+
+.sliderFrame {
+    overflow: hidden;
+    height: 180px;
+    width: 270px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@keyframes slide_animation {
+    0% {
+        left: 0px
+    }
+
+    10% {
+        left: 0px
+    }
+
+    20% {
+        left: 270px
+    }
+
+    30% {
+        left: 270px
+    }
+
+    40% {
+        left: 540px
+    }
+
+    50% {
+        left: 540px
+    }
+
+    60% {
+        left: 270px
+    }
+
+    70% {
+        left: 270px
+    }
+
+    80% {
+        left: 0px
+    }
+
+    90% {
+        left: 0px
+    }
+
+    100% {
+        left: 0px
+    }
+}
+
+.slideImages {
+    width: 810px;
+    height: 180px;
+    margin: 0 0 0 -540px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+.imgContainer {
+    height: 180px;
+    width: 270px;
+    position: relative;
+    float: left;
+}
+
+img.images {
+    width: 270px;
+    height: 180px;
+
+    display: flex;
 }
