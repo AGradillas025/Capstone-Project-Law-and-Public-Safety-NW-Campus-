@@ -8,7 +8,7 @@
 /* General Content Styles */
 
 article {
-    display: block
+    display: block;
 }
 
 h1#heading {
@@ -31,11 +31,10 @@ p {
     margin: 0 auto;
 }
 
-
-
-
-
-
+section {
+    display: block;
+    width: 100%;
+}
 
 
 
@@ -52,72 +51,66 @@ p {
 
 /* Side Content Styles */
 
+div#sideCont {
+    height: 100%;
+}
+
 div#sideCont h1 {
     font-size: 1.5em;
     text-align: center;
 }
 
-
 /* Map Styles */
 
-#map {
-    width: 50%;
+div#mapContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+iframe#map {
+    width: 100%;
 }
 
 /*
  Social Media Icons
  */
 
-div#socialMedia {
-    width: 100%;
-    margin: 0 auto
-}
-
-#snap {
+a.fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 0;
     border-radius: 50%;
-    display: block;
+}
 
+a.fa:hover {
+    opacity: .7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
     color: white;
-    background-color: #fffc00;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#twitter {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: block;
-
-    color: white;
-    background-color: #55ACEE;
-}
-
-#insta {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: block;
-
-    color: white;
+.fa-instagram {
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
 }
 
-
+div#socialMedia {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /* Image Slider */
 
