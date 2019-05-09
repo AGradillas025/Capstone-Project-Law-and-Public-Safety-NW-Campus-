@@ -7,19 +7,15 @@
 
 /* General Content Styles */
 
-article {
-    display: block;
-}
-
 h1#heading {
+    margin: 20px 0;
     padding: 15px;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 h2 {
     font-size: 2em;
     padding: 15px;
-    margin: 0;
 }
 
 p {
@@ -35,19 +31,6 @@ section {
     display: block;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Side Content Styles */
 
@@ -190,6 +173,4 @@ div#socialMedia {
 img.images {
     width: 270px;
     height: 180px;
-
-    display: flex;
 }

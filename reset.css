@@ -1,7 +1,12 @@
+@charset "utf-8";
+
 /* 
     Authors: Anthony Gradillas & Emmanuel Cortes Castaneda
     File: reset.css
 */
+
+
+/* Basic styles to be used with all devices and under all conditions */
 
 article,
 aside,
@@ -29,8 +34,15 @@ em,
 figcaption,
 figure,
 footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 header,
 html,
+img,
 li,
 main,
 nav,
@@ -55,6 +67,9 @@ colgroup {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+/* Set the default page element styles */
 
 body {
     line-height: 1.2em;

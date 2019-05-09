@@ -7,6 +7,7 @@
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="West-MEC Arrows/West-MEC-Arrow-Gradient.png">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="styles3.css">
     <script src=""></script>
@@ -41,18 +42,53 @@
 
     <div id="bodyCont">
         <div id="general">
-            <article id="upper">
-                <h1>Central Instructor</h1>
-                <img src="images/KimberlyJohnson.jpg" alt="">
-                <h1>Contact</h1>
-                <h2>Phone Number</h2>
-                <a href="tel:16232098070">623.209.8070</a>
-                <h2>Email</h2>
-                <a href="mailto:kimberly.johnson@west-mec.org">kimberly.johnson@west-mec.org</a>
-            </article>
+            <h1 id="heading">Central Campus Instructor</h1>
+            <section id="split1">
+                <article id="upper">
+                    <img src="images/KimberlyJohnson.jpg" alt="Instructor" id="photo">
+                    <h2 id="subHeading">Contact</h2>
+                    <h3>Phone Number</h3>
+                    <a href="tel:16232098070" class="links">623.209.8070</a>
+                    <h3>Email</h3>
+                    <a href="mailto:kimberly.johnson@west-mec.org" class="links">kimberly.johnson@west-mec.org</a>
+                </article>
+            </section>
+
+            <section id="split2">
+                <h2 id="formHeading">Questions?</h2>
+
+                <form id="survey" action="westmec.com" method="POST">
+                    <fieldset>
+                        <legend>Information</legend>
+
+                        <div class="formRow">
+                            <label for="fname">First Name*</label>
+                            <input name="firstName" type="text" id="name" placeholder="First and Last Name" required>
+                        </div>
+
+                        <div class="formRow">
+                            <label for="email">E-mail*</label>
+                            <input name="email" type="email" id="email" placeholder="jsmith@example.com" required>
+                        </div>
+
+                        <div class="formRow">
+                            <label for="phone">Phone Number</label>
+                            <input name="phone" type="tel" id="phone" placeholder="(xxx)-xxx-xxxx">
+                        </div>
+
+                        <label for="commBox">Leave Questions!</label>
+                        <textarea name="custExp" id="commBox" required></textarea>
+                    </fieldset>
+
+                    <div id="buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Cancel">
+                    </div>
+                    </fieldset>
+
+                </form>
+            </section>
         </div>
-
-
 
         <div id="sideCont">
 
