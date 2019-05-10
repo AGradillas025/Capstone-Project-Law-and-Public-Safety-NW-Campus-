@@ -17,6 +17,7 @@ section#split2 {
 }
 
 h1#heading {
+
     margin: 20px 0;
     padding: 15px;
     font-size: 3em;
@@ -36,7 +37,7 @@ h2#subHeading {
     padding: 15px;
 }
 
-h3 {
+h3.info {
     font-size: 1.05em;
     padding: 15px;
 }
@@ -67,10 +68,23 @@ form#survey>fieldset {
     margin: 10px;
 }
 
+div.formRow {
+    padding: 12px 0;
+}
+
+div#buttons {
+    text-align: center;
+}
+
+input.fillOut {
+    float: right;
+}
+
 legend {
     background-color: rgb(229, 137, 25);
     color: white;
     padding: 5px;
+    border-radius: 15px;
 }
 
 textarea {

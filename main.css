@@ -29,7 +29,10 @@ h4 {
 
 footer,
 p,
-a {
+a,
+input,
+label,
+legend {
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -73,6 +76,12 @@ li a:hover {
 
 /* Body Styles */
 
+h1#heading {
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 3em;
+}
+
 article#upper::after {
     content: "";
     display: table;
@@ -108,4 +117,73 @@ footer {
     background: rgb(229, 137, 25);
     color: white;
     text-align: center;
+}
+
+/* Image Slider */
+
+/* Side Content Styles */
+
+
+div#sideCont {
+    height: 100%;
+}
+
+div#sideCont h1 {
+    padding: 15px 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div#sideCont h3 {
+    font-size: 1.05em;
+    padding: 15px;
+}
+
+/*
+ Social Media Icons
+ */
+
+a.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 50%;
+}
+
+a.fa:hover {
+    opacity: .7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+div#socialMedia {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sliderFrame {
+    overflow: hidden;
+    height: 180px;
+    width: 270px;
+    margin: 0 auto;
+    display: flex;
 }

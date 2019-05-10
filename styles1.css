@@ -7,11 +7,7 @@
 
 /* General Content Styles */
 
-h1#heading {
-    margin: 20px 0;
-    padding: 15px;
-    font-size: 3em;
-}
+
 
 h2 {
     font-size: 2em;
@@ -32,16 +28,7 @@ section {
     width: 100%;
 }
 
-/* Side Content Styles */
 
-div#sideCont {
-    height: 100%;
-}
-
-div#sideCont h1 {
-    font-size: 1.5em;
-    text-align: center;
-}
 
 /* Map Styles */
 
@@ -52,125 +39,6 @@ div#mapContainer {
 
 iframe#map {
     width: 100%;
-}
 
-/*
- Social Media Icons
- */
-
-a.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 0;
-    border-radius: 50%;
-}
-
-a.fa:hover {
-    opacity: .7;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-instagram {
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    color: white;
-}
-
-div#socialMedia {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* Image Slider */
-
-.sliderFrame {
-    overflow: hidden;
-    height: 180px;
-    width: 270px;
-    margin: 0 auto;
-    display: flex;
-}
-
-@keyframes slide_animation {
-    0% {
-        left: 0px
-    }
-
-    10% {
-        left: 0px
-    }
-
-    20% {
-        left: 270px
-    }
-
-    30% {
-        left: 270px
-    }
-
-    40% {
-        left: 540px
-    }
-
-    50% {
-        left: 540px
-    }
-
-    60% {
-        left: 270px
-    }
-
-    70% {
-        left: 270px
-    }
-
-    80% {
-        left: 0px
-    }
-
-    90% {
-        left: 0px
-    }
-
-    100% {
-        left: 0px
-    }
-}
-
-.slideImages {
-    width: 810px;
-    height: 180px;
-    margin: 0 0 0 -540px;
-    position: relative;
-    animation-name: slide_animation;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: running;
-}
-
-.imgContainer {
-    height: 180px;
-    width: 270px;
-    position: relative;
-    float: left;
-}
-
-img.images {
-    width: 270px;
-    height: 180px;
+    box-shadow: 5px 10px 8px #888888;
 }
