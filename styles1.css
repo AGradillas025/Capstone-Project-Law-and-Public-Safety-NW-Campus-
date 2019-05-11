@@ -7,115 +7,36 @@
 
 /* General Content Styles */
 
-article {
-    display: block
-}
 
-h1#heading {
-    margin: 0;
-    padding: 15px;
-    font-size: 3.5em;
-}
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 15px;
-    margin: 0
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Side Content Styles */
-
-div#sideCont h1 {
-    font-size: 1.5em;
-    text-align: center;
+p {
+    font-size: 1.17em
 }
 
-div#sideCont img {
-    display: block;
+.information {
+    width: 90%;
     margin: 0 auto;
 }
 
+section {
+    display: block;
+    width: 100%;
+}
 
 /* Map Styles */
 
-#map {
-    width: 50%;
+
+div#mapContainer {
+    width: 90%;
+    margin: 0 auto;
 }
 
-/*
- Social Media Icons
- */
-
-div#socialMedia {
+iframe#map {
     width: 100%;
-    margin: 0 auto
-}
-
-#snap {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: block;
-
-    color: white;
-    background-color: #fffc00;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-#twitter {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: block;
-
-    color: white;
-    background-color: #55ACEE;
-}
-
-#insta {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: block;
-
-    color: white;
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-
-.icons:hover {
-    opacity: .7;
+    box-shadow: 5px 10px 8px #888888;
 }

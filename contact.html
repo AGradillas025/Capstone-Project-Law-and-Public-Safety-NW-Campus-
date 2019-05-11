@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="West-MEC Arrows/West-MEC-Arrow-Gradient.png">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="styles3.css">
     <script src=""></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- FONTS -->
     <!-- Use: font-family: 'Nunito Sans', sans-serif; -->
@@ -40,18 +44,93 @@
 
     <div id="bodyCont">
         <div id="general">
-            <article id="upper">
+            <h1 id="heading">Central Campus Instructor</h1>
+            <section id="split1">
+                <article id="upper">
+                    <img src="images/KimberlyJohnson.jpg" alt="Instructor" id="photo">
+                    <h2 id="subHeading">Contact</h2>
+                    <h3 class="info">Phone Number</h3>
+                    <a href="tel:16232098070" class="links">623.209.8070</a>
+                    <h3 class="info">Email</h3>
+                    <a href="mailto:kimberly.johnson@west-mec.org" class="links">kimberly.johnson@west-mec.org</a>
+                </article>
+            </section>
 
-            </article>
+            <section id="split2">
+                <h2 id="formHeading">Questions?</h2>
 
-            <article id="lower">
+                <form id="survey" action="westmec.com" method="POST">
+                    <fieldset>
+                        <legend>Information</legend>
 
+                        <div class="formRow">
+                            <label for="fname">Name*</label>
+                            <input class="fillOut" name="firstName" type="text" id="name"
+                                placeholder="First and Last Name" required>
+                        </div>
+
+                        <div class="formRow">
+                            <label for="email">E-mail*</label>
+                            <input class="fillOut" name="email" type="email" id="email" placeholder="jsmith@example.com"
+                                required>
+                        </div>
+
+                        <div class="formRow">
+                            <label for="phone">Phone Number</label>
+                            <input class="fillOut" name="phone" type="tel" id="phone" placeholder="(xxx)-xxx-xxxx">
+                        </div>
+
+                        <div class="formRow">
+                            <label for="commBox">Leave Questions!</label>
+                            <textarea name="custExp" id="commBox" required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div id="buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Cancel">
+                    </div>
+                    </fieldset>
+
+                </form>
+            </section>
         </div>
 
-
-
         <div id="sideCont">
+            <h1>Pictures</h1>
 
+            <div class="sliderFrame">
+                <div class="slideImages">
+                    <div class="imgContainer">
+                        <img src="images/1st.png" alt="" class="images">
+                    </div>
+                    <div class="imgContainer">
+                        <img src="images/2nd.png" alt="" class="images">
+                    </div>
+                    <div class="imgContainer">
+                        <img src="images/3rd.png" alt="" class="images">
+                    </div>
+                </div>
+            </div>
+
+
+            <h1>Social Media</h1>
+
+            <div id="socialMedia">
+                <div class="socialsContainer">
+                    <h3 class="socials">Snapchat</h3>
+                    <a class="fa fa-snapchat-ghost" href=""></a>
+                </div>
+
+                <div class="socialsContainer">
+                    <h3 class="socials">Twitter</h3>
+                    <a class="fa fa-twitter" href=""></a>
+                </div>
+                <div class="socialsContainer">
+                    <h3 class="socials">Instagram</h3>
+                    <a class="fa fa-instagram" href=""></a>
+                </div>
+            </div>
         </div>
 
     </div>
