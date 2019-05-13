@@ -2,3 +2,7 @@
     Authors: Anthony Gradillas & Emmanuel Cortes Castaneda
     File: about.html
 */
+
+div#bodyCont {
+    height: 100%;
+}

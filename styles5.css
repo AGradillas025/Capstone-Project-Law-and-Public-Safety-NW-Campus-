@@ -16,3 +16,15 @@ article p {
     line-height: 24.75pt;
     padding: 0 15px;
 }
+
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+
+    h2.subHeadings {
+        font-size: 19pt;
+    }
+
+    p {
+        font-size: 16pt;
+        line-height: 24pt;
+    }
+}
