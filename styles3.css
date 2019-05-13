@@ -134,4 +134,8 @@ textarea {
     a.links {
         font-size: 11pt;
     }
+
+    div#bodyCont {
+        height: auto;
+    }
 }
