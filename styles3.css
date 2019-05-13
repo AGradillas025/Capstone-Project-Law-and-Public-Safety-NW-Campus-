@@ -76,6 +76,10 @@ div#buttons {
     text-align: center;
 }
 
+div#bodyCont {
+    height: 100%;
+}
+
 input.fillOut {
     float: right;
 }
@@ -115,7 +119,6 @@ textarea {
     }
 
     h2#subHeading {
-        font-size: 16pt;
         display: none;
     }
 
@@ -125,10 +128,10 @@ textarea {
     }
 
     h3.info {
-        font-size: 12pt;
+        font-size: 13pt;
     }
 
     a.links {
-        font-size: 10pt;
+        font-size: 11pt;
     }
 }

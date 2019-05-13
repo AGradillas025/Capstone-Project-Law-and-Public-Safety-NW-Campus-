@@ -29,6 +29,8 @@
 <body>
     <div id="header">
         <header>
+            <label id="navButton" for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle">
             <nav>
                 <img src="West-MEC Logo/WM-Logo-Black.png" alt="" style="width: 15%">
                 <ul>
@@ -62,13 +64,13 @@
                         <legend>Information</legend>
 
                         <div class="formRow">
-                            <label for="fname">Name*</label>
+                            <label for="fname">Name<span style="color: red">*</span></label>
                             <input class="fillOut" name="firstName" type="text" id="name"
                                 placeholder="First and Last Name" required>
                         </div>
 
                         <div class="formRow">
-                            <label for="email">E-mail*</label>
+                            <label for="email">E-mail<span style="color: red">*</span></label>
                             <input class="fillOut" name="email" type="email" id="email" placeholder="jsmith@example.com"
                                 required>
                         </div>
@@ -79,7 +81,7 @@
                         </div>
 
                         <div class="formRow">
-                            <label for="commBox">Leave Questions!</label>
+                            <label for="commBox">Leave your questions!</label>
                             <textarea name="custExp" id="commBox" required></textarea>
                         </div>
                     </fieldset>

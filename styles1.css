@@ -26,7 +26,9 @@ section {
     width: 100%;
 }
 
-/* Map Styles */
+div#bodyCont {
+    height: 100%;
+}
 
 div.mapContainer {
     width: 90%;

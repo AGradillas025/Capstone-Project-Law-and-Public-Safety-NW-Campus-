@@ -13,8 +13,8 @@ body {
     height: 100%;
 }
 
-body {
-    min-height: 100%;
+html {
+    background-color: whitesmoke;
 }
 
 /* Header Styles */
@@ -69,10 +69,6 @@ h1#heading {
     margin: 20px 0;
     padding: 15px;
     font-size: 3em;
-}
-
-div#bodyCont {
-    height: 100%;
 }
 
 div#general {
@@ -178,6 +174,16 @@ div#socialMedia {
     display: flex;
 }
 
+label#navButton {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+    line-height: 50px;
+    display: none;
+}
+
+input#toggle {
+    display: none;
+}
 
 /* Mobile Styles */
 
@@ -188,7 +194,7 @@ div#socialMedia {
     }
 
     header img {
-        display: none;
+        display: none
     }
 
     h1#heading {
@@ -197,5 +203,25 @@ div#socialMedia {
 
     div#general {
         width: 100%;
+    }
+
+    label#navButton {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav {
+        text-align: center;
+        display: none;
+    }
+
+    nav ul li {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    input#toggle:checked+nav {
+        display: block;
     }
 }
