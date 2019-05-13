@@ -16,7 +16,8 @@ footer,
 header,
 main,
 nav,
-section {
+section,
+iframe {
     display: block;
 }
 
@@ -57,7 +58,8 @@ tr,
 td,
 th,
 col,
-colgroup {
+colgroup,
+iframe {
     margin: 0;
     padding: 0;
     border: 0;

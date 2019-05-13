@@ -92,3 +92,43 @@ textarea {
     height: 100px;
     width: 95%;
 }
+
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+
+    h1#heading {
+        font-size: 2em;
+    }
+
+    section#split1,
+    section#split2 {
+        width: 100%;
+    }
+
+    section#split2>form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    img#photo {
+        float: left;
+        padding: 15px 10px;
+    }
+
+    h2#subHeading {
+        font-size: 16pt;
+        display: none;
+    }
+
+    h2#formHeading {
+        font-size: 16pt;
+        padding-top: 15px;
+    }
+
+    h3.info {
+        font-size: 12pt;
+    }
+
+    a.links {
+        font-size: 10pt;
+    }
+}
