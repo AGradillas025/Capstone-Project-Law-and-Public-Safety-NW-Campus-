@@ -8,12 +8,13 @@
 /* Window Styles */
 
 /* The height of both the html & body will be set to 100% height of the browser window */
-html {
+html,
+body {
     height: 100%;
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
 }
 
 /* Header Styles */
@@ -35,18 +36,6 @@ label,
 legend {
     font-family: 'Nunito Sans', sans-serif;
 }
-
-
-/* The div with the id of header is set to take up 100% of the browser width */
-div#header {
-    width: 100%;
-}
-
-div#header::after {
-    display: table;
-    content: "";
-}
-
 
 ul {
     list-style-type: none;
@@ -82,14 +71,8 @@ h1#heading {
     font-size: 3em;
 }
 
-article#upper::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 div#bodyCont {
-    height: 100%
+    height: 100%;
 }
 
 div#general {
@@ -97,6 +80,12 @@ div#general {
     float: left;
     background-color: whitesmoke;
     height: 100%;
+}
+
+div#general::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 div#sideCont {
@@ -119,10 +108,11 @@ footer {
     text-align: center;
 }
 
-/* Image Slider */
+footer a {
+    color: white;
+}
 
 /* Side Content Styles */
-
 
 div#sideCont {
     height: 100%;
@@ -186,4 +176,26 @@ div#socialMedia {
     width: 270px;
     margin: 0 auto;
     display: flex;
+}
+
+
+/* Mobile Styles */
+
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+
+    div#sideCont {
+        display: none
+    }
+
+    header img {
+        display: none;
+    }
+
+    h1#heading {
+        font-size: 2em;
+    }
+
+    div#general {
+        width: 100%;
+    }
 }
