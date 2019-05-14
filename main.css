@@ -173,6 +173,7 @@ label#navButton {
     font-size: 25px;
     line-height: 50px;
     display: none;
+    color: rgb(229, 137, 25);
 }
 
 input#toggle {
