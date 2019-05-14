@@ -6,3 +6,20 @@
 div#bodyCont {
     height: 100%;
 }
+
+/* Unordered list for hobbies */
+ul#hobbies {
+    list-style-type: none;
+    background-color: whitesmoke;
+    color: black;
+    float: left;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+/* p */
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
