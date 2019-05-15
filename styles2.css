@@ -25,13 +25,17 @@ article p {
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
+    div#bodyCont {
+        height: auto;
+    }
+
     h2#subHeading {
-        font-size: 16pt;
+        font-size: 17pt;
     }
 
     p {
-        font-size: 12pt;
-        line-height: 18pt;
+        font-size: 14pt;
+        line-height: 21pt;
     }
 
     div#bodyCont {
