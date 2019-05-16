@@ -33,7 +33,8 @@ p,
 a,
 input,
 label,
-legend {
+legend,
+figcaption {
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -180,6 +181,30 @@ input#toggle {
     display: none;
 }
 
+img.images {
+    width: 80%;
+    display: block;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+figure#campusContainer {
+    width: 80%;
+    display: block;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+#campus {
+    width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(229, 137, 25);
+}
 
 
 /* Mobile Styles */

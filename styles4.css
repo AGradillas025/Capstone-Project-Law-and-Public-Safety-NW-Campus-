@@ -18,10 +18,20 @@ ul#hobbies {
     border-radius: 10px;
 }
 
+h3 {
+    font-size: 24pt;
+    padding: 15px;
+}
+
 /* p */
 p {
     padding-left: 20px;
     padding-right: 20px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16pt;
+    line-height: 24.75pt;
+    padding: 0 15px;
 }
 
 
