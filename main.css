@@ -72,6 +72,8 @@ h1#heading {
     font-size: 3em;
 }
 
+
+
 div#general {
     width: 80%;
     float: left;
@@ -225,6 +227,10 @@ figcaption {
 
     h1#heading {
         font-size: 20pt;
+    }
+
+    h1.mobileTitle {
+        font-size: 18pt
     }
 
     div#general {
