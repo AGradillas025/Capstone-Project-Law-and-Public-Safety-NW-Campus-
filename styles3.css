@@ -101,6 +101,12 @@ textarea {
     width: 95%;
 }
 
+input:invalid,
+textarea:invalid {
+    color: red;
+    background-color: rgb(255, 250, 185);
+}
+
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
     div#bodyCont {
